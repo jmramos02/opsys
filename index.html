@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "UTF-8" lang = "en">
+		<link rel="stylesheet" href="css/pure-min.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>OPSSSYSSS</title>
+	</head>
+	<body>
+		<div class="pure-g-r">
+			<div class="pure-u-1">
+				<div class = "banner">
+					<h1>Allocat'd</h1>
+				</div>
+			</div>
+		</div>
+		<div class = "pure-g-r">
+			<div class="pure-u-1-3">
+				<div class = "content">
+					<h1>Instructions: </h1>
+					1. Create a program that implements a fixed partition memory allocation scheme. <br> <br>
+					Total Memory Size = 100K <br>
+					No. of Partition: 3 Partitions/Blocks<br>
+					<ul>
+						<li>Partition 1 = 30K </li>
+						<li>Partition 2 = 30K </li>
+						<li>Partition 3 = 40K </li>
+					</ul>
+				</div>
+			</div>
+			<div class="pure-u-1-3">
+				<div class = "content">
+					<h1>Input:</h1>
+					<form action="evaluate.php" id = "my-form" method="post" class="pure-form pure-form-stacked">
+						<legend>Job Information</legend>
+						<label for="job1"> Job 1 </label>
+						<input type = "text" name = "job1" maxlength="2" id = "job1" required>
+						<label for="job2"> Job 2 </label>
+						<input type = "text" name = "job2" maxlength="2" id = "job2" required>
+						<label for="job3"> Job 3 </label>
+						<input type = "text" name = "job3" maxlength="2" id = "job3" required>
+					  	<button type="button" id = "submit-button" class="pure-button pure-button-primary">Evaluate</button>
+					</form>
+				</div>
+			</div>
+			<div class = "pure-u-1-3">
+				<div class = "content">
+					<h1>Output:</h1>
+					<div id = "output">
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type = "text/javascript" src = "js/script.js"> </script>
+	</body>
+</html>
